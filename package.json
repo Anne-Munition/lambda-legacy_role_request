@@ -1,0 +1,31 @@
+{
+  "name": "lambda-legacy_role_request",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Anne-Munition/lambda-legacy_role_request.git",
+  "author": "DBKynd <db@dbkynd.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "grunt",
+    "prettier": "prettier --write \"**/*.{js,md,*rc,json}\" --ignore-path .gitignore",
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "grunt": "^1.4.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-run": "^0.8.1",
+    "jest": "^27.5.1",
+    "nock": "^13.2.4",
+    "prettier": "^2.5.1"
+  }
+}
